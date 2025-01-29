@@ -1,4 +1,4 @@
-# Docs & FAQs for IDM'24
+# Docs & FAQs for IDM'25
 
 This repo contains various FAQ and other important documents for the course. Please refer to each file individually.
 
