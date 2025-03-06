@@ -2,34 +2,45 @@
 
 **Good question!**
 
-The simple answer is: your solution has to be **your own work**. In terms of code, your code **must be written entirely by yourself**.
+The simple answer is: your solution has to be **your _own_ work**. In terms of code, your code **must be written entirely by yourself**.
 
-* As a rule, you should never look at or run anyone else's code for the assignment, whether the code was written by someone currently in the class, or someone who took it previously, even at another university.
+> [!NOTE]
+> The examples below refer to Pacman projects done in the AI course, but they generalize to any particular project you may be doing in other courses.
 
-A very smart strategy to protect yourself against breaching the Course Honesty Policy is this one: _**never search a solution (or part of it) for the project problem you are meant to solve**_.
+As a rule, you should never look at or run anyone else's code for the assignment, whether the code was written by someone currently in the class, or someone who took it previously, even at another university. Your code should also not be written by an algorithm, like ChatGPT or Co-Pilot: that code would not be _yours_, of course 😉
 
-* Never search "_A* pacman_" or even "_A* in Python_" or similar, because that is what you need to produce _entirely_ by yourself.
-* If you do, you are only tricking yourself, jeopardising your opportunity to learn, breaching the Course Honesty Policy, and putting you at risk of going through the University academic misconduct process.
+A practical smart strategy to protect yourself against breaching the Course Honesty Policy would be:
+
+1. Disable any automatic proramming support from the start (e.g., Co-pilot).
+2. Never search a solution (or part of it) for the project problem you are meant to solve.
+
+That is, you just **do not initiate** the breach, and you will be safe and protect your own learning Ultimately, you would like to be truly **proud** of _your_ solution. 🙌
+
+So:
+
+* Never search "_A* pacman_" or even "_A* in Python_" or similar, because that is what you need to produce _entirely_ by yourself. Searching includes the web (e.g., stackoverflow or Google), LLM-based systems like ChatGPT or Co-pilot inside VSCODE. 🛑
+* If you do, you are only tricking yourself 😢, **giving away your opportunity to learn**, breaching the Course Honesty Policy, and putting you at risk of going through the University academic misconduct process.
 * In most cases, once you saw someone else's solution, it is **often too late** for you to come up with YOUR entire solution (which is when you actually learn). It is easy to understand something somebody already solved, the difficult but rewarding task is to build the solution yourself (remember NP problems??) !
 
-**Adapting someone else's solution does not make it your own work**. So, if you take, say, an A* implementation (even if not for Pacman) and **adapting** it to your (Pacman) needs, then **the solution is _not_ your own work anymore** and may not be submitted without breaching Academic Integrity. That code is not auxiliary code anymore, it is the code you are meant to produce in your learning journey.
+> [!NOTE]
+> **Adapting someone else's (including systems like Co-pilot or ChatGPT) solution does not make it your own work**. So, if you take, say, an A* implementation (even if not for Pacman) and **adapting** it to your (Pacman) needs, then **the solution is _not_ your own work anymore** and may not be submitted without breaching Academic Integrity. That code is not auxiliary code anymore, it is the code you are meant to produce in your learning journey.
 
-
-Said so, there are **many things you can do safely** and you are encouraged to! Let’s discuss them...
+There are still **many things you can do safely** and you are encouraged to! Let’s discuss them...
 
 1. **Reading pseudo-code** for a technique, from text-books, papers, the web, or slides, is completely OK and even expected (e.g., reading and studying the pseudo-code for minimax or A* algorithms). If you use a source (e.g., text-book) very closely, for example, converting the pseudocode of A* in the textbook to Python, academic integrity demands that you cite the source (in a comment). You will not be penalised for including such a comment ("_Based on pseudo-code in book X, page Y_”); on the contrary, the citation may help us to understand why your implementation is so similar to someone else's, in case they use and cite the same source.
-2. **Using existing libraries and tools to support auxiliary tasks** that do not involve solving the problem (or an important part of it) we are interested in.
+
+2. **Using existing libraries and tools to support _auxiliary_ tasks** that do not involve solving the problem (or an important part of it) we are interested in.
 
     * For example, **you can use Python libraries for generic tasks** (e.g., maths libraries, arrays, etc.); such tasks are not what the project is about and we are not learning how to build those libraries. You can use those libraries off-the-shelf.
     * However, if you find **a library that solves your problem or a non-auxiliary part of it**, then you **may not use it**. For example, if you find a library of search algorithms, then it is obviously not acceptable to use it, as then you are not solving the problem, you are _reusing someone else's solution_: they won, they know, you don't. :-)
 
-3. You can also **reuse generic code for specific auxiliary tasks** that you may need, in the path of building your solution to the project problem. For example, if you need to extract the odd numbers you can use:
+3. You can also **reuse generic code for specific _auxiliary_ tasks** that you may need, in the path of building your solution to the project problem. For example, if you need to extract the odd numbers you can use:
 
     ```python
         oddNums = [x for x in nums if x % 2 == 1]
     ```
 
-    or variations of it that are everywhere on the web, as long as you understand what that code is doing. The fact is that that code is auxiliary support code, it does not constitute the core solution to the actual problem you are to solve. So generic Python code is fine to reuse, but remember you need to understand it and unless very trivial _acknowledge it in your code (with a comment)_.
+    or variations of it that are everywhere on the web, as long as you understand what that code is doing. The fact is that that code is _auxiliary_ support code, it does not constitute essential parts of the solution to the actual problem you are to solve. So generic Python code is fine to reuse, but remember you need to understand it and unless very trivial _acknowledge it in your code (with a comment)_.
 
 4. You are **encouraged to discuss with your peers**, even your solutions, but **always at the verbal level**, never sharing or showing code (even snippets), and never seeing step-by-step the code of your friend.
 
@@ -37,10 +48,9 @@ Said so, there are **many things you can do safely** and you are encouraged to! 
     * If you just keep the collaboration at the speech level, it is very difficult to do anything wrong; if on the other hand you show or pass code, then you are putting you and your friend into a big risk and missing out in the learning. Don't do it, not worth it.
     * Of course, if it is just about Python, it is OK to go over code, for example it is OK to explain to your friend how you do list comprehension, that is, again, auxiliary code.
 
+Observe you it is totally fine to **research general techniques or techniques for different problems** that you may find useful **importing into your project/problems**. For example, you may research what is used in pathfinding or in TSP or in network flow problems. Then you may adapt and import those techniques to your specific task. If the problem you researched had nothing to do with Pacman, then you are safe. You will of course, as courtesy and ethical behavior, then explain and acknowledge in your report what you took from where and explain how that was helpful for your solution. For example, in the past, a student reported this which was just perfect:
 
-Observe you it is totally fine to **research general techniques or techniques for different problems** that you may find useful **importing into Pacman problems**. For example, you may research what is used in pathfinding or in TSP or in network flow problems. Then you may adapt and import those techniques to your specific task. If the problem you researched had nothing to do with Pacman, then you are safe. You will of course, as courtesy and ethical behavior, then explain and acknowledge in your report what you took from where and explain how that was helpful for your solution. For example, in the past, a student reported this which was just perfect:
-
-```
+```plantext
 Tried to use the heuristics from question 6. Heuristic was not
 acceptable..
 ......
