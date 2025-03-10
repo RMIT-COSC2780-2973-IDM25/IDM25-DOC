@@ -19,7 +19,6 @@ These are common questions and issues on Git and GitHub.
   - [Autograding in GitHub](#autograding-in-github)
   - [Where are the repos for my course?](#where-are-the-repos-for-my-course)
   
-
 ## Git, GitHub, what is that? Where can I learn it?
 
 We will use proper (git) version control in all our programming projects. This is totally standard practice in the industry and you would have seen that in previous courses (SEF and SEPT at least). Said so, if you want to refresh or have a quick intro to it, here are two resources I found useful:
@@ -35,7 +34,6 @@ There are lots more good resources on the web of course!
 ## What is good quality of Git usage?
 
 In assessments and exercise we expect students to apply quality Software Engineering processes, including usage of Git and GitHub. Please refer to the [SE and Git Practices FAQ](SE_GIT-PRACTICES.md).
-
 
 ## How do I submit my project solution in my GIT repository?
 
@@ -57,8 +55,8 @@ A tag is a specific point in the repository history, the point you want to be us
 While you can tag from your IDE (e.g., VS Code) you can always resort to command line to first create the tag in your local repo and then push it to the remote:
 
 ```shell
-$ git tag -a submission <hash of commit to tag>
-$ git push origin submission
+git tag -a submission <hash of commit to tag>
+git push origin submission
 ```
 
 Check the remote has the tag where you wanted!
@@ -76,8 +74,8 @@ Note that the timestamp of the _commit_ is the submission date.
 This will happen when you realize you have a better version to submit than the one you submitted/tagged before. To do that, you need to first _delete_ the existing tag from both your local repo and from the server:
 
 ```shell
-$ git tag --delete <tagname>  # first delete tag in the local repo
-$ git push origin :refs/tags/<tagname>  # then delete remote tag
+git tag --delete <tagname>  # first delete tag in the local repo
+git push origin :refs/tags/<tagname>  # then delete remote tag
 ```
 
 It is important to use `:refs/tags` when deleting the remote tag, as otherwise you may delete the branch with the same name! The empty string to the left of the colon causes the remote reference to be deleted!
@@ -90,13 +88,12 @@ See this as well on how to _rename_ an existing tag:
 
 More information on how to delete git tags [here](https://devconnected.com/how-to-delete-local-and-remote-tags-on-git/).
 
-
 ## How do I update the tags in my local repo? I get rejection with "(would clobber existing tag)" message
 
 To fetch the tags in the remote (e.g., tags pushed by other collaborators), you can do:
 
 ```shell
-$ git fetch --all --tags -f
+git fetch --all --tags -f
 ```
 
 This will fetch all the changes from the remote, but also all the tags. The `-f` option will replace an existing tag (e.g., `submission`) with the one in the remote, if any (instead of failing). This could come very handy when different collaborators tag and re-tag commits as they incrementally work on a solution.
@@ -106,6 +103,7 @@ This will fetch all the changes from the remote, but also all the tags. The `-f`
 No, a _tag_ is a _git concept_, whereas a `Release` is something about GitHub, beyond git itself. So, they are not synonymous.
 
 A tag is a _pointer_ to a specific commit, that's all, you basically give a name to a specific commit. This is what we use to mark the commit that is meant to be submitted for marking.
+
 ## Cannot clone or push to GitHub with my password credentials?
 
 As [per August 12th, 2021 GitHub post](https://github.blog/changelog/2021-08-12-git-password-authentication-is-shutting-down/), GitHub is not no longer accepting account passwords when authenticating Git operations, like cloning private repos or pushing changes. You should use **token-based authentication**, such as  personal access, OAuth, SSH Key, or GitHub App installation token.
@@ -115,15 +113,15 @@ So, if you were still using a password to authenticate your GitHub.com operation
 For example, you can set-up your remote as follows (after you generated your token in GitHub):
 
 ```shell
-$ git remote set-url origin https://<token>@github.com/<username>/<repo>
+git remote set-url origin https://<token>@github.com/<username>/<repo>
 ```
 
 As explained [here](https://www.sobyte.net/post/2021-08/github-deprecates-passwords-for-git-operations/), tokens offer many advantages over password-based authentication:
 
-* **Unique:** tokens are specific to GitHub and can be generated on a per-use or per-device basis.
-* **Revocable:** tokens can be individually revoked at any time without the need to update unaffected credentials.
-* **Limited:** tokens can be narrowed to allow only the access required by the use case.
-* **Random:** tokens are not subject to dictionary types or brute force attempts that might be made with simpler passwords that users need to remember or enter periodically.
+- **Unique:** tokens are specific to GitHub and can be generated on a per-use or per-device basis.
+- **Revocable:** tokens can be individually revoked at any time without the need to update unaffected credentials.
+- **Limited:** tokens can be narrowed to allow only the access required by the use case.
+- **Random:** tokens are not subject to dictionary types or brute force attempts that might be made with simpler passwords that users need to remember or enter periodically.
 
 ## I get `Permission denied (publickey).` from GitHub
 
@@ -151,8 +149,7 @@ Read [this GitHub page](https://docs.github.com/en/github/setting-up-and-managin
 
 Please check [doc in GitHub](https://docs.github.com/en/github/committing-changes-to-your-project/troubleshooting-commits/why-are-my-commits-linked-to-the-wrong-user) and also [this post](https://crunchify.com/how-to-set-github-user-name-and-user-email-per-repository-different-config-for-different-repository/) if you want to set-up different GitHub accounts for different users.
 
-Please fix it so we can know the commit was *yous*. Otherwise we may get your contributions wrong and risk getting lower marks or delaying your marking.
-
+Please fix it so we can know the commit was _yous_. Otherwise we may get your contributions wrong and risk getting lower marks or delaying your marking.
 
 ## Autograding in GitHub
 
