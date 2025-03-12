@@ -11,6 +11,7 @@
     - [Duplicate redundant answers](#duplicate-redundant-answers)
     - [Use of NAF `\+` on non-grounded goals](#use-of-naf--on-non-grounded-goals)
   - [Other Prolog information and issues 👣](#other-prolog-information-and-issues-)
+    - [Anonymous variables](#anonymous-variables)
     - [Difference between `=/2` and `==/2`](#difference-between-2-and-2)
     - [Evaluating and comparing arithmetic expressions: the `is/2` construct](#evaluating-and-comparing-arithmetic-expressions-the-is2-construct)
     - [Variables in all-solution predicates?](#variables-in-all-solution-predicates)
@@ -25,6 +26,13 @@
     - [Why do I get  "`Warning: Clauses of a/1 are not together in the source-file`" warning?](#why-do-i-get--warning-clauses-of-a1-are-not-together-in-the-source-file-warning)
 
 ## General Prolog Information ℹ️
+
+Simpson's DB: use grandpa (not granpa)
+Make sure SWI is in your PATH so you can call it from terminal
+In Linux, install the test package (swi-prolog-test)
+Put the same predicate all together, don't scattered the around interleaved: SWI will complain.
+Always use an IDE to do your development (e.g., VSCODE with Prolog plugin) - do not upload or edit in GitHub
+sits_right(X, Y): Y sits to the left of X (X to the right of Y)
 
 ### Development environment
 
@@ -220,6 +228,84 @@ So, every time you use `\+`, be very careful and think: could it ever be the cas
 
 ## Other Prolog information and issues 👣
 
+### Anonymous variables
+
+Anonymous variables can be used when we we do not care about its value, as long as it exists one. Anonymous variables are represented with an underscore (`_`).
+
+For example, consider this program:
+
+```prolog
+q(1).
+q(2).
+q(3).
+
+p(1, a).
+p(1, b).
+p(8, c).
+p(9, d).
+```
+
+If we want to check if `q()` is true, but we don't care for which values:
+
+```prolog
+?- q(_).
+true ;
+true ;
+true.
+```
+
+The query has succeeded three times, as there are three possible values that make the query true, but the actual bindings are not shown, as we have used an anonymous variable.
+
+Each occurrence of `_` is treated as a different, independent variable, as the following example shows:
+
+```prolog
+?- q(_), p(_, Y).
+Y = a ;
+Y = b ;
+Y = c ;
+Y = d ;
+Y = a ;
+Y = b ;
+Y = c ;
+Y = d ;
+Y = a ;
+Y = b ;
+Y = c ;
+Y = d.
+```
+
+If we wanted to list all the `q`-elements that have a related `p` element, then we need to use:
+
+```prolog
+?- q(X), p(X, Y).
+X = 1,
+Y = a ;
+X = 2,
+Y = b ;
+false.
+```
+
+If we are merely interested in that there exists such `X` joining the two predicates, but not in its value:
+
+```prolog
+?- q(_X), p(_X, Y).
+_X = 1,
+Y = a ;
+_X = 2,
+Y = b ;
+false.
+
+?- set_prolog_flag(toplevel_print_anon, false).
+true.
+
+?- q(_X), p(_X, Y).
+Y = a ;
+Y = b ;
+false.
+```
+
+The flag [`toplevel_print_anon`](https://www.swi-prolog.org/pldoc/man?section=flags) states whether anonymous variables `_X` are to be printed or not.
+
 ### Difference between `=/2` and `==/2`
 
 **NOTE:** consider the differences between [`=/2`](https://www.swi-prolog.org/pldoc/doc_for?object=(%3D)/2) (equal as per unification) and [`==/2`](https://www.swi-prolog.org/pldoc/doc_for?object=(%3D%3D)/2) (syntactically equal), and their corresponding dual versions:
@@ -363,6 +449,7 @@ The reason why `hello` and `by` appear in `L`, is because `X` is matched with `B
 Pay attention to good style, including:
 
 - Simpler, shorter code is generally best.
+- Be _consistent_ your naming conventions, you can use [camel case](https://en.wikipedia.org/wiki/Camel_case) or [snake case](https://en.wikipedia.org/wiki/Snake_case) (the one I tend to use), but just be consistent.
 - Try to use unification variables when possible; for example, write
 
     ```prolog
@@ -379,6 +466,7 @@ Pay attention to good style, including:
 
 - Pick intuitive names for your predicates and arguments.
   - Good naming convention for a helper predicate used by a predicate `pred` is `pred_aux` (`aux` stands for"auxiliary"). This makes it easier to understand what it is used for.
+- Put all the clauses of the same predicate together, avoid interleaving predicates predicates; see [this post](#why-do-i-get--warning-clauses-of-a1-are-not-together-in-the-source-file-warning) below.
 
 ### Indentation
 
