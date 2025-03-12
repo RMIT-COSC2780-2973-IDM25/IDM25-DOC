@@ -418,7 +418,7 @@ For **documentation style** similar to JavaDoc, refer to [SWI-Prolog Source Docu
 
 ## Unit Testing in SWI-Prolog ✅
 
-Many workshop exercises include testing cases that can be used against your solution. To do this, we rely on SWI-Prolog Unit Testing framework library [plunit](https://www.swi-prolog.org/pldoc/doc_for?object=section(%27packages/plunit.html%27)).
+Many workshop exercises include testing cases that can be used against your solution. To do this, we rely on SWI-Prolog Unit Testing framework library [plunit](https://www.swi-prolog.org/pldoc/doc_for?object=section(%27packages/plunit.html%27)). Make sure you install that module when you install and setup your SWI-Prolog; in Linux Ubuntu, you need to install package `swi-prolog-test`.
 
 To run a set the test cases, consult your solution file (in this case, `family.pl`) and the file defining the test cases (in our case `test/test_02_03.pl`), and then run the built-in predicate goal `run_tests/0`, which will run al test cases:
 
