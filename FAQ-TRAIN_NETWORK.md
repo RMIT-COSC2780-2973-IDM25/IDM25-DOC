@@ -14,7 +14,7 @@ If in doubt always ask in the forum. Some other predicates that you shall not us
 
 Some predicates that you can use as they are still basic are:
 
-- `nth0/3`, `nth1/3`
+- `nth0/3`, `nth1/3`, `reverse/2`
 
 ## How can I compute & carry "so-far" results?
 
