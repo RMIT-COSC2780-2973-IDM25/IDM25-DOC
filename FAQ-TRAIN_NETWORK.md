@@ -10,11 +10,12 @@ This project assignment can be solved neatly using plain basic Prolog built-in p
 
 If in doubt always ask in the forum. Some other predicates that you shall not use are:
 
-- `table/1`, `order_by/1`, `sort/2`
+- `table/1`, `order_by/1`, `sort/2`, `msort/2`
 
 Some predicates that you can use as they are still basic are:
 
 - `nth0/3`, `nth1/3`, `reverse/2`, `min/2`, `max/2`
+- All the type checking predicates: https://www.swi-prolog.org/pldoc/man?section=typetest
 
 ## How can I compute & carry "so-far" results?
 
