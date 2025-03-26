@@ -1,8 +1,13 @@
 # Train Network Assignment FAQ
 
 - [Train Network Assignment FAQ](#train-network-assignment-faq)
+  - [Should I fill `queries.pl`?](#should-i-fill-queriespl)
   - [Can I use built-in predicate `P/n`?](#can-i-use-built-in-predicate-pn)
   - [How can I compute \& carry "so-far" results?](#how-can-i-compute--carry-so-far-results)
+
+## Should I fill `queries.pl`?
+
+No. Some answers were wrongly provided, so we will disregard the queries and only focus on the modeling of the Ontario network 😉
 
 ## Can I use built-in predicate `P/n`?
 
