@@ -7,6 +7,7 @@
   - [Should the output/results of queries be listed in the order as in the spec?](#should-the-outputresults-of-queries-be-listed-in-the-order-as-in-the-spec)
   - [Could a link exist on a non-defined city?](#could-a-link-exist-on-a-non-defined-city)
   - [How precise the time needs to be? My solution yields  5.416666666666666 rather than 5.416666666666667!](#how-precise-the-time-needs-to-be-my-solution-yields--5416666666666666-rather-than-5416666666666667)
+  - [Where are the test cases for the assignment?](#where-are-the-test-cases-for-the-assignment)
 
 ## Should I fill `queries.pl`?
 
@@ -59,3 +60,6 @@ No! Every city mentioned in a link will have its corresponding city definition.
 
 No problem. We will round to three the most three significant digits, so all good with that answer, they are equivalent!
 
+## Where are the test cases for the assignment?
+
+As in any software development, _you_ are to are meant to develop your test cases from requirements; it is part of the process. The workshops exercises, which bring some test cases, are of different nature and play a different role in your course, more formative assessment.
