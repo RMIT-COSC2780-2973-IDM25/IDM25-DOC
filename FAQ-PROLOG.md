@@ -348,7 +348,7 @@ X =  (-),
 Y = 2.
 ```
 
-Here `3-1` is NOT `3`, it is the term `3-1` (with functor `-` and arity 2!).
+Here `3-1` is NOT `2`, it is the term `3-1` (with functor `-` and arity 2!).
 
 So, to do evaluation of an expression, you should use the [`is/2`](https://www.swi-prolog.org/pldoc/doc_for?object=(is)/2) built-in construct. So, instead of writing things like `distance(X, Y, N-1)`, you should instead write `distance(X, Y, N2), N2 is N-1`. It is very important that at the time of execution of an `is/2` goal, the expression is ground and there are no variables:
 
