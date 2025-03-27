@@ -4,6 +4,8 @@
   - [Should I fill `queries.pl`?](#should-i-fill-queriespl)
   - [Can I use built-in predicate `P/n`?](#can-i-use-built-in-predicate-pn)
   - [How can I compute \& carry "so-far" results?](#how-can-i-compute--carry-so-far-results)
+  - [Should the output/results of queries be listed in the order as in the spec?](#should-the-outputresults-of-queries-be-listed-in-the-order-as-in-the-spec)
+  - [Could a link exist on a non-defined city?](#could-a-link-exist-on-a-non-defined-city)
 
 ## Should I fill `queries.pl`?
 
@@ -43,3 +45,11 @@ Check a run:
 ?- sumar([1,2,3,4], R).
 R = 10.
 ```
+
+## Should the output/results of queries be listed in the order as in the spec?
+
+No! When we have answers from Prolog, we really do not care their order, they are logically true answers. Order doesn't matter.
+
+## Could a link exist on a non-defined city?
+
+No! Every city mentioned in a link will have its corresponding city definition.
