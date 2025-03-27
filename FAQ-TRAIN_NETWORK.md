@@ -6,6 +6,7 @@
   - [How can I compute \& carry "so-far" results?](#how-can-i-compute--carry-so-far-results)
   - [Should the output/results of queries be listed in the order as in the spec?](#should-the-outputresults-of-queries-be-listed-in-the-order-as-in-the-spec)
   - [Could a link exist on a non-defined city?](#could-a-link-exist-on-a-non-defined-city)
+  - [How precise the time needs to be? My solution yields  5.416666666666666 rather than 5.416666666666667!](#how-precise-the-time-needs-to-be-my-solution-yields--5416666666666666-rather-than-5416666666666667)
 
 ## Should I fill `queries.pl`?
 
@@ -53,3 +54,8 @@ No! When we have answers from Prolog, we really do not care their order, they ar
 ## Could a link exist on a non-defined city?
 
 No! Every city mentioned in a link will have its corresponding city definition.
+
+## How precise the time needs to be? My solution yields  5.416666666666666 rather than 5.416666666666667!
+
+No problem. We will round to three the most three significant digits, so all good with that answer, they are equivalent!
+
