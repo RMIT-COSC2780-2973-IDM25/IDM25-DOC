@@ -17,7 +17,7 @@ As any FAQ page, this page is always "under construction”. As we realize that 
   - [I am enrolled in COSC2973 (UGRD) but my Canvas says COSC2780 (PGRD). Is everything OK?](#i-am-enrolled-in-cosc2973-ugrd-but-my-canvas-says-cosc2780-pgrd-is-everything-ok)
   - [I enrolled late in the course, can you explain me about X, Y, and Z about the course? What should I do now?](#i-enrolled-late-in-the-course-can-you-explain-me-about-x-y-and-z-about-the-course-what-should-i-do-now)
   - [I have a clash with other courses, what should do?](#i-have-a-clash-with-other-courses-what-should-do)
-  - [I have a question about the course, but it is not here!](#i-have-a-question-about-the-course-but-it-is-not-here)
+  - [I have a question about the course, but it is not here](#i-have-a-question-about-the-course-but-it-is-not-here)
 - [COURSE GENERAL](#course-general)
   - [Is this course theoretical or practical?](#is-this-course-theoretical-or-practical)
   - [What programming languages are used?](#what-programming-languages-are-used)
@@ -34,7 +34,7 @@ As any FAQ page, this page is always "under construction”. As we realize that 
   - [I cannot attend my workshop session, can I change to another session?](#i-cannot-attend-my-workshop-session-can-i-change-to-another-session)
   - [Should I bring my laptop to the workshops?](#should-i-bring-my-laptop-to-the-workshops)
 - [ASSESSMENTS](#assessments)
-  - [I was never asked these questions!](#i-was-never-asked-these-questions)
+  - [I was never asked these questions](#i-was-never-asked-these-questions)
   - [Can I ask questions on an assignment/assessment in the forum?](#can-i-ask-questions-on-an-assignmentassessment-in-the-forum)
   - [Are assessments individual or team-based?](#are-assessments-individual-or-team-based)
   - [Can I do the assessments without going to class?](#can-i-do-the-assessments-without-going-to-class)
@@ -44,6 +44,7 @@ As any FAQ page, this page is always "under construction”. As we realize that 
   - [Can I submit late? What is the penalty?](#can-i-submit-late-what-is-the-penalty)
   - [What is the policy on Special Consideration (SPC)?](#what-is-the-policy-on-special-consideration-spc)
   - [I have a SPC for a project, how does it work?](#i-have-a-spc-for-a-project-how-does-it-work)
+  - [I submitted wrongly (e.g., didn't tag correctly) and is now after the due date, can you consider my submission?](#i-submitted-wrongly-eg-didnt-tag-correctly-and-is-now-after-the-due-date-can-you-consider-my-submission)
 - [TECHNICAL](#technical)
   - [Cannot access the Google Form, says I need permission](#cannot-access-the-google-form-says-i-need-permission)
   - [Questions about GIT?](#questions-about-git)
@@ -58,7 +59,6 @@ If, somehow, you managed to get out of the [self-reference](https://en.wikipedia
 
 Of course, if you cannot find your question here, then you are invited to post it in the discussion forum. As questions become more common or usual, I add them to this list. So, maybe your new question can make it to the list! :-)
 
-
 ## Communication policy: I have a question, can I email you?
 
 **Communication/email policy:** Except for personal issues, all electronic communication must be directed to the [EdStem Discussion Forum](https://edstem.org/au/courses/22051). I only use email for limited communications regarding **personal circumstances** (in which case email is just used to arrange a face-to-face meeting). In particular, I will not respond by e-mail to any requests to clarify lecture, tutorial, or assignment questions. Please use workshops first, and discussion forum second, for all such questions so that a _fair course is run_ and all other fellow students can benefit as well. Do not be afraid to post any question (of course, as long as it is a proper question: just asking for “help” or providing solutions/insights on assignments is not acceptable, as it may amount to plagiarism), no question is stupid! To benefit from others, then, please ensure that you _regularly check_ the course website and attend lectures and tutorials.
@@ -69,7 +69,7 @@ Check [Course Communication Policy here](https://drive.google.com/file/d/13qUcAW
 
 **YES!** This is a _research-oriented seminar-style_ advanced course, which means it requires on campus attendance to workshops. This is already specified in the [Course Overview](http://www1.rmit.edu.au/courses/COSC29732410):
 
-> Being a seminar-style course, students are expected to prepare for and actively participate in-person in class via discussions, presentations, and exercises (worth 20% marks overall). Thus, while a minimum attendance standard is not compulsory, non-attendance may seriously jeopardise participation marks. 
+> Being a seminar-style course, students are expected to prepare for and actively participate in-person in class via discussions, presentations, and exercises (worth 20% marks overall). Thus, while a minimum attendance standard is not compulsory, non-attendance may seriously jeopardise participation marks.
 
 Workshops are not lectures where the instructor delivers the content. Instead, we discuss together each week content at workshops, we do presentations, execute drills, etc. So, on campus personal presence is necessary. Also, a component of the assessment is assigned to _participation_ during workshops, presentation, and leadership. To participate actively will surely require being there. :-)
 
@@ -119,23 +119,22 @@ Now, there has been a lot of debate whether these surveys are a good idea, or if
 
 > "_Measuring the teacher by how well the student did in the next course is an important part of this experiment. Previous papers, says Pellizzari, compared student ratings to student grades within that same course. An easy-A prof may earn five stars in return for handing out good grades. But this leniency, his research suggests, does the students no long-term favors._"
 
-
 Two more articles with findings on the issue are:
 
-1. [_Zero Correlation Between Evaluations and Learning - New study could be another nail in the coffin for the validity of student evaluations of teaching_](http://tinyurl.com/hdd7979) 
-2. [_Students don't know what's best for their own learning_](https://theconversation.com/students-dont-know-whats-best-for-their-own-learning-33835). This article in The Conversation from a couple of years ago cites studies that show *negative* correlation between student evaluation and learning.
+1. [_Zero Correlation Between Evaluations and Learning - New study could be another nail in the coffin for the validity of student evaluations of teaching_](http://tinyurl.com/hdd7979)
+2. [_Students don't know what's best for their own learning_](https://theconversation.com/students-dont-know-whats-best-for-their-own-learning-33835). This article in The Conversation from a couple of years ago cites studies that show _negative_ correlation between student evaluation and learning.
 
 More articles on Course Surveys and Grade Inflation:
 
-* [‘A’ Is for Average: College Grade Inflation](http://tinyurl.com/h2d88cy)
-* [The New Normal: The Problem of Grade Inflation in American Schools](https://drive.google.com/file/d/1Z1vjzcpsA3n0m3_A6NtRYwxMid1afT9b/view?usp=sharing)
-* [Students don't know what's best for their own learning](http://tinyurl.com/o6v6xhz)
-* [When A is for Average: the High Cost of Grade Inflation](http://tinyurl.com/oc2ewhl) – Tutor Talk
-* [College Grade Inflation](http://tinyurl.com/lvx4lr4)
+- [‘A’ Is for Average: College Grade Inflation](http://tinyurl.com/h2d88cy)
+- [The New Normal: The Problem of Grade Inflation in American Schools](https://drive.google.com/file/d/1Z1vjzcpsA3n0m3_A6NtRYwxMid1afT9b/view?usp=sharing)
+- [Students don't know what's best for their own learning](http://tinyurl.com/o6v6xhz)
+- [When A is for Average: the High Cost of Grade Inflation](http://tinyurl.com/oc2ewhl) – Tutor Talk
+- [College Grade Inflation](http://tinyurl.com/lvx4lr4)
 
 Finally, if you are interested in education in general, and university and university in Australia, this podcast in ABC Big Ideas is a must:
 
-* [_What students really think of the university_](http://tinyurl.com/lrdem76). Big Ideas - ABC Radio National (Australian Broadcasting Corporation)
+- [_What students really think of the university_](http://tinyurl.com/lrdem76). Big Ideas - ABC Radio National (Australian Broadcasting Corporation)
 
 I think as a University student and future graduate, you should know about all this, be interested, and form your own informed opinion. _Your journey at uni should be much more than collecting credits and learning predicate logic!_ **_Enjoy it!_**
 
@@ -170,17 +169,17 @@ Hope this is clear and all the best in the course!
 
 ## I have a clash with other courses, what should do?
 
-I do not manage that aspect, please refer to the timetabling FAQ: https://www.rmit.edu.au/students/my-course/class-timetables/faqs
+I do not manage that aspect, please refer to the timetabling FAQ: <https://www.rmit.edu.au/students/my-course/class-timetables/faqs>
 
 The most relevant question is this:  _I have two classes that clash. What can I do?_
 
-For higher education students: 
+For higher education students:
 
 > Class times are selected to ensure core course options are clash-free, but it’s not possible to cater for every elective option or non-standard enrolment, for example when taking courses from different year levels from your program. If you have an unavoidable tutorial, workshop, or lab clash, you should discuss your enrolment with your School or your Program Coordinator.
 
 In this context, “Program Coordinator” = Program Manager
 
-## I have a question about the course, but it is not here!
+## I have a question about the course, but it is not here
 
 If you have any questions about the course that you think other fellow students may be also interested in learning, please post it in the forum!
 
@@ -206,15 +205,15 @@ It is hard to answer this question, as it will depend a lot on the background, m
 
 However, one could argue that the course is more towards the challenging/difficult spectrum because:
 
-1. It is an *advanced course*, expected to be taken by postgraduate students and last year (good) undergraduate students.
-2. It deals with *abstract mathematical concepts*, like logical models and formulas, recursion and self-reference, complex and infinite objects.
-3. It requires *problem solving skills* to solve combinatorial decision making problems.
-4. It requires *self-driven attitude*: there is significant pre-reading before workshops. It is not a classical undergraduate course where the instructors yields all the knowledge during the session.
-5. It is run by a *demanding teacher* who pushes students hard. :-)
+1. It is an _advanced course_, expected to be taken by postgraduate students and last year (good) undergraduate students.
+2. It deals with _abstract mathematical concepts_, like logical models and formulas, recursion and self-reference, complex and infinite objects.
+3. It requires _problem solving skills_ to solve combinatorial decision making problems.
+4. It requires _self-driven attitude_: there is significant pre-reading before workshops. It is not a classical undergraduate course where the instructors yields all the knowledge during the session.
+5. It is run by a _demanding teacher_ who pushes students hard. :-)
 
 One initial test is to read Part I.1 and I.2 (Sets & Logic) in the Book of Proofs:
 
-https://www.people.vcu.edu/~rhammack/BookOfProof/
+<https://www.people.vcu.edu/~rhammack/BookOfProof/>
 
 and see how it goes. If you don't feel comfortable with that, then this may be a signal :-)
 
@@ -266,11 +265,11 @@ There is only one workshop session for this small course. If you are taking this
 
 # ASSESSMENTS
 
-## I was never asked these questions!
+## I was never asked these questions
 
 This is correct and one of the objectives of the course’ assessments. This is an advanced, Master-level, course and hence we assess at the highest level of the [Bloom Hierarchy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) (_evaluate, create_) so as to achieve higher-order levels of learning for applying and creating new solutions.
 
-At this level, one important skill---a very important one---is to be able to handle new problems and challenges with the knowledge & problem-solving strategies you gathered earlier and to demonstrate autonomy and self-driven process. It is not enough to *just* solve questions that you have seen before. In particular, if you want to excel, you must be able to welcome & handle novel challenges.
+At this level, one important skill---a very important one---is to be able to handle new problems and challenges with the knowledge & problem-solving strategies you gathered earlier and to demonstrate autonomy and self-driven process. It is not enough to _just_ solve questions that you have seen before. In particular, if you want to excel, you must be able to welcome & handle novel challenges.
 
 ## Can I ask questions on an assignment/assessment in the forum?
 
@@ -292,19 +291,17 @@ Since this is an advanced course, we assume students are very knowledgeable abou
 
 Said so, here are some resources:
 
-* [RMIT Academic Integrity student resources](https://www.rmit.edu.au/students/student-essentials/assessment-and-exams/academic-integrity) to learn more about academic integrity
-* [RMIT Learning Advisors online](https://www.rmit.edu.au/students/study-support/study-support-hub) provides a contact if you require further support or advice.
+- [RMIT Academic Integrity student resources](https://www.rmit.edu.au/students/student-essentials/assessment-and-exams/academic-integrity) to learn more about academic integrity
+- [RMIT Learning Advisors online](https://www.rmit.edu.au/students/study-support/study-support-hub) provides a contact if you require further support or advice.
 
 RMIT’s Student Conduct policy requires that students abide by the academic integrity expectations set out in the:
 
-* [Student Charter](https://policies.rmit.edu.au/download.php?id=74&version=1&associated), and
-* [Statement of Student Responsibilities](https://policies.rmit.edu.au/download.php?id=75&version=1&associated).
-
+- [Student Charter](https://policies.rmit.edu.au/download.php?id=74&version=1&associated), and
+- [Statement of Student Responsibilities](https://policies.rmit.edu.au/download.php?id=75&version=1&associated).
 
 ## In a code assignment/project, how do I make sure I do not go against academic integrity?
 
 Good one! This deserves its own separate answer [here](CODE-INTEGRITY.md).
-
 
 ## I am very busy with other commitments (work, other subjects, travel, etc.) and may not be able to make the deadline, can I get a 2-3 day extension?
 
@@ -334,12 +331,19 @@ Each request will be considered on an individual basis. If the request is approv
 
 Please note that while no SPC will be granted frivolously, any request received close to the assessment date (or after the date!) will generally not be accepted except in the most extreme circumstances. This is to encourage students to plan days and weeks ahead, and to discourage last minute pleas for help.
 
-
 ## I have a SPC for a project, how does it work?
 
 It depends. If the SPC provides a short extension (less than a week), then you will just need to submit under the new (extended) deadline.
 
 If however the SPC cannot be granted under a short extension, then the assessment will be carried out as an _Equivalent Assessment_. An Equivalent Assessment covers the same content and at the same expectations, but can be done in a different format. In most cases, an Equivalent Assessment will involve solving a set of precise exercises on paper with the instructor on campus. The instructor will set the date/time and location and the student must make sure they are made themselves available for it.
+
+## I submitted wrongly (e.g., didn't tag correctly) and is now after the due date, can you consider my submission?
+
+We will not fix any submission and it is your responsibility to do it correctly.
+
+However, the nice thing about git-based projects/assessments is that we can rely on commits. So, if you have submitted your tag incorrectly (did not tag it at all, tagged with different name or different capital letters), then please fix your submission by tagging the specific commit you want me to (re)mark and let us know you did so in the corresponding PR of your repo (no email, no forum).
+
+Note we will of course use the timestamp of the commit itself, not of when it was tagged. This means that if the commit was done before the deadline, then all good!! Isn't this cool?
 
 # TECHNICAL
 
