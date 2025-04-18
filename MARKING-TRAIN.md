@@ -157,7 +157,7 @@ Soundness checks are not applied to boolean solutions (as it is the same as the 
 
 These marks are indicated in the marking report by lines such as:
 
-```
+```plaintext
 Test N: [-P] - Incorrect answers found... (e.g., S)
 ```
 
@@ -178,7 +178,7 @@ where:
 
 This is indicated in the marking report by lines such as:
 
-```
+```plaintext
 Test N: [P/T] - Final points collected
 ```
 where `N` is the ID of the test case, `P` is the number of points received by the submission, and `T` is the total points available.
@@ -278,6 +278,9 @@ In turn, an example where the report signals issues is as follows:
 
 In this fragment, there are 8 single tests. Each has been checked for completeness, redundancy, and soundness. It shows issues on all three dimensions.
 
+> ![NOTE]
+> See how the report provides descriptions of each test and also the time taken to execute your solution! 😉
+
 ### Forbidden predicates
 
 When a test is found to use a forbidden predicate, as per the "Language restrictions and guidelines ⚡" section in the project spec, the test will attract no points and be reported as follows:
@@ -304,7 +307,7 @@ So, we would run each test suite in two modes:
 
 We would then take the one that achieves more points. You will see that in the report as follows:
 
-```
+```plaintext
    best_mode: You scored the most points when we ran your code with your implementations
    for prior questions, so all results for this question are using your implementations.
 ```
