@@ -1,4 +1,4 @@
-# Marking Guide for IDM'24 - Train Network
+# Marking Guide for Train Network Reasoner Project - IDM'25
 
 This document explains the automarking framework and system used for the Train Network Reasoner assignment project.
 
