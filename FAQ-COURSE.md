@@ -45,7 +45,8 @@ As any FAQ page, this page is always "under construction”. As we realize that 
   - [What is the policy on Special Consideration (SPC)?](#what-is-the-policy-on-special-consideration-spc)
   - [I have a SPC for a project, how does it work?](#i-have-a-spc-for-a-project-how-does-it-work)
   - [I submitted wrongly (e.g., didn't tag correctly) and is now after the due date, can you consider my submission?](#i-submitted-wrongly-eg-didnt-tag-correctly-and-is-now-after-the-due-date-can-you-consider-my-submission)
-- [TECHNICAL](#technical)
+  - [What are good tips for presentations (in-person or videos)?](#what-are-good-tips-for-presentations-in-person-or-videos)
+  - [TECHNICAL](#technical)
   - [Cannot access the Google Form, says I need permission](#cannot-access-the-google-form-says-i-need-permission)
   - [Questions about GIT?](#questions-about-git)
 
@@ -345,7 +346,34 @@ However, the nice thing about git-based projects/assessments is that we can rely
 
 Note we will of course use the timestamp of the commit itself, not of when it was tagged. This means that if the commit was done before the deadline, then all good!! Isn't this cool?
 
-# TECHNICAL
+## What are good tips for presentations (in-person or videos)?
+
+The course offers students the possibility to present to an audience technical material, which is indeed a necessary skill of any professional. The presentation offered will help the student develop their skills and knowledge on how to present, and also expose them to its challenges.
+
+Some shortcoming that we have seen over the editions and that you may want to pay attention are:
+
+- Slide decks very lazily put together.
+  - e.g. couple of dot points, lots of space devoted to superfluous graphics and stock photos that presumably come from a template, formatting errors, pixelated screenshots, no numbering, etc.
+- Poor design of slides
+  - too small/large fonts, overcrowded material, too little material, jumpy organisation, no connections.
+- Poor or no projection of voice: Speak up! 🔈
+- Poor or no eye contact with audience. 👁️
+- No introduction to presentation: who and what.
+- Significant time devoted to irrelevant topics.
+- Hands on pocket.
+- Speaker seems bored and not interested (imagine the audience then!). 😫
+- Uncritical use of LLMs 🦙
+- No or very shallow and static examples.
+- Read directly from the slides or notes. 👓
+- Speaker doesn't understand what is reading. 😕
+- No stepping through the examples, just talking over them. 👣
+- Monotone delivery. Speaker looked disengaged or bored. Watch about **cadence** [HERE](https://www.facebook.com/share/v/15QbjDBweS/), [HERE](https://www.youtube.com/watch?v=VY0r0WV0GAQ), and [HERE](https://www.youtube.com/shorts/uC11-9DfTnA).
+- Too many **"filler words"**; watch about that [HERE](https://www.youtube.com/shorts/ApPfimH7_tk), [HERE](https://www.youtube.com/shorts/DPIfMnW4aAQ) and [HERE](https://www.youtube.com/watch?v=hUY8DiQgUUg).
+
+> [!TIP]
+> Probably the best advice is: **rehearse your presentation as many times as needed**. This could mean 5, 10 or 20 times, yes. Could be done in front of a mirror. Maybe you can even record yourself, so you can recognise places to improve. You will notice already how much you improved when you practice is seriously three to five times: your presentation comes more natural.
+
+## TECHNICAL
 
 ## Cannot access the Google Form, says I need permission
 
