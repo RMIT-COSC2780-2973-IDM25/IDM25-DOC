@@ -46,7 +46,8 @@ As any FAQ page, this page is always "under construction”. As we realize that 
   - [I have a SPC for a project, how does it work?](#i-have-a-spc-for-a-project-how-does-it-work)
   - [I submitted wrongly (e.g., didn't tag correctly) and is now after the due date, can you consider my submission?](#i-submitted-wrongly-eg-didnt-tag-correctly-and-is-now-after-the-due-date-can-you-consider-my-submission)
   - [What are good tips for presentations (in-person or videos)?](#what-are-good-tips-for-presentations-in-person-or-videos)
-  - [TECHNICAL](#technical)
+  - [I would like to challenge the final assessment (review period after grade release); can I do it?](#i-would-like-to-challenge-the-final-assessment-review-period-after-grade-release-can-i-do-it)
+- [TECHNICAL](#technical)
   - [Cannot access the Google Form, says I need permission](#cannot-access-the-google-form-says-i-need-permission)
   - [Questions about GIT?](#questions-about-git)
 
@@ -373,7 +374,24 @@ Some shortcoming that we have seen over the editions and that you may want to pa
 > [!TIP]
 > Probably the best advice is: **rehearse your presentation as many times as needed**. This could mean 5, 10 or 20 times, yes. Could be done in front of a mirror. Maybe you can even record yourself, so you can recognise places to improve. You will notice already how much you improved when you practice is seriously three to five times: your presentation comes more natural.
 
-## TECHNICAL
+## I would like to challenge the final assessment (review period after grade release); can I do it?
+
+Of course! If you believe there has been a **factual error in the marking** of your final assessment, you may request a review. However, please follow these important guidelines when preparing your request:
+
+- **Focus only on concrete, objective issues** — for example, parts of your answer that were not considered, correct answers that were marked as incorrect, or incorrect tallying of marks.
+- **Do not include subjective opinions** — such as how many marks you believe you "deserve" or whether you feel your answer should have received more credit. These will not be considered.
+- **Be precise and specific**: indicate the exact question, the part of your answer in question, and clearly explain the marking issue.
+- Always **provide supporting evidence** — for example, cite the relevant lecture content, textbook, or marking guide to justify your claim.
+
+Requests that are vague, emotional, or speculative will not be reviewed.
+
+Please send your review request in by filling and emailing the  **Review of Assessment Results** form within the allowed timeframe. The review will focus **strictly on the factual marking accuracy**, not on re-evaluating academic judgement or partial credit.
+
+> [!IMPORTANT]
+> When a review is performed upon request, the final mark can go up, stay the same, or go down.
+
+
+# TECHNICAL
 
 ## Cannot access the Google Form, says I need permission
 
